@@ -31,7 +31,7 @@ module.exports = {
         new HtmlWebpackPlugin({
             inject: false,
             hash: false,
-            title: 'pxt-extension-name',
+            title: 'pxt-Circuit-Check',
             semanticUIPath: '//cdn.jsdelivr.net/npm/semantic-ui@2.4.0/dist',
             reactPath: 'https://unpkg.com/react@16',
             reactDomPath: 'https://unpkg.com/react-dom@16',

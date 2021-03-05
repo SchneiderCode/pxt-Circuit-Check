@@ -1,6 +1,6 @@
 {
-    "name": "my-extension",
-    "description": "A custom extension",
+    "name": "Circuit-Check",
+    "description": "A live circuit debugging tool for Makecode",
     "version": "0.0.1",
     "license": "MIT",
     "dependencies": {
@@ -15,8 +15,8 @@
     ],
     "public": true,
     "extension": {
-        "namespace": "custom",
-        "label": "Custom editor",
+        "namespace": "CircuitCheck",
+        "label": "Live View",
         "localUrl": "http://127.0.0.1:3000/index.html"
     }
 }

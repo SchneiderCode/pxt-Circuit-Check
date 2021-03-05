@@ -1,7 +1,7 @@
 // add any required runtime here
-namespace custom {
+namespace CircuitCheck {
     //% block
-    export function hello() {
+    export function testCircuit() {
 
     }
 }

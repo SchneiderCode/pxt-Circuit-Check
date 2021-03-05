@@ -1,5 +1,5 @@
 {
-    "name": "pxt-extension-name",
+    "name": "pxt-circuit-check",
     "version": "0.0.1",
     "scripts": {
         "build:dev": "./node_modules/.bin/webpack --mode development --config webpack.dev.js",
