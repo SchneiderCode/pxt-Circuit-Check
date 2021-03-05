@@ -16,6 +16,7 @@
     "public": true,
     "extension": {
         "namespace": "CircuitCheck",
+        "url": "https://schneidercode.github.io/pxt-circuit-check/",
         "label": "Live View",
         "localUrl": "http://127.0.0.1:3000/index.html"
     }
