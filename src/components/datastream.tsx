@@ -34,7 +34,7 @@ export class DataStream extends React.Component<DataStreamProps, DataStreamState
             <a onClick={() => this.handleStart()} >Click </a>
             <Form>
             <FormField>
-                <Label>Console data</Label>
+                <Label>Serial Data</Label>
                 <pre className="ui tiny">waiting for data</pre>
             </FormField>
             <FormField>
