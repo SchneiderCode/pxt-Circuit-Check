@@ -28,7 +28,7 @@ export class DataStream extends React.Component<DataStreamProps, DataStreamState
     }
 
     render(): JSX.Element {
-        const { hosted } = this.props;
+        const hosted = true;//{ hosted } = this.props;
         const { streaming } = this.state;
         return <Form>
             <FormField>
