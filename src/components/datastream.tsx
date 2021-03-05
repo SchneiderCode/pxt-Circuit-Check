@@ -31,7 +31,7 @@ export class DataStream extends React.Component<DataStreamProps, DataStreamState
         const hosted = true;//{ hosted } = this.props;
         const { streaming } = this.state;
         return <>
-            <a onClick={() => this.handleStart()} >Click </a>
+            <a onClick={() => {console.log("Clicked Here");this.handleStart}} >Click </a>
             <Form>
             <FormField>
                 <Label>Serial Data</Label>
