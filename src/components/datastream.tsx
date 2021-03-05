@@ -30,13 +30,15 @@ export class DataStream extends React.Component<DataStreamProps, DataStreamState
     render(): JSX.Element {
         const hosted = true;//{ hosted } = this.props;
         const { streaming } = this.state;
-        return <Form>
+        return <>
+            <a onClick={() => this.handleStart()} >Click </a>
+            <Form>
             <FormField>
                 <Label>Console data</Label>
                 <pre className="ui tiny">waiting for data</pre>
             </FormField>
             <FormField>
-                <Button onClick={this.handleStart}>
+                <Button disabled={!hosted} onClick={this.handleStart}>
                     {streaming ? "Stop streaming" : "Start streaming"}
                 </Button>
                 {!hosted ? <Message info>
@@ -44,6 +46,6 @@ export class DataStream extends React.Component<DataStreamProps, DataStreamState
                     This page needs to be opened from the MakeCode editor in order to get data streaming.
                 </Message> : undefined}
             </FormField>
-        </Form>;
+        </Form></>;
     }
 }
