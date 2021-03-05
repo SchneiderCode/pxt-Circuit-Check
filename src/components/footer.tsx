@@ -9,7 +9,7 @@ export class Footer extends React.Component<FooterProps> {
         // TODO update footer for page when non-hosted in the MakeCode editor
         return <div className="ui center basic segment footer">
             <hr/>
-            TODO: Update copyright / privacy notice.
+            Footer
         </div>
     }
 }
