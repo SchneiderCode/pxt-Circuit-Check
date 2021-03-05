@@ -36,7 +36,7 @@ export class DataStream extends React.Component<DataStreamProps, DataStreamState
                 <pre className="ui tiny">waiting for data</pre>
             </FormField>
             <FormField>
-                <Button disabled={!hosted} onClick={this.handleStart}>
+                <Button onClick={this.handleStart}>
                     {streaming ? "Stop streaming" : "Start streaming"}
                 </Button>
                 {!hosted ? <Message info>
