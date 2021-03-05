@@ -1,0 +1,22 @@
+{
+    "name": "my-extension",
+    "description": "A custom extension",
+    "version": "0.0.1",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "main.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "extension": {
+        "namespace": "custom",
+        "label": "Custom editor",
+        "localUrl": "http://127.0.0.1:3000/index.html"
+    }
+}
